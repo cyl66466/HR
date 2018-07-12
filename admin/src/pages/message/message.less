@@ -1,0 +1,114 @@
+.title {
+  width: 100%;
+  padding-top: 3vw;
+  margin-bottom: 1vw;
+  text-align: center;
+  color: #1890ff;
+  font-family: "幼圆";
+  font-size: 2.8vw;
+  letter-spacing: 0.2vw;
+}
+.info {
+  // 表格字体大小
+  .ant-table {
+    font-size: 1vw;
+  }
+  background: #fff;
+}
+.tables {
+  // 隐藏分页栏
+  .ant-table-pagination {
+    display: none;
+  } //前两栏类table
+  .like-table {
+    //隐藏头部
+    thead {
+      display: none;
+    }
+  } // 设置表格标题样式
+  .ant-table-title {
+    border: none !important;
+    padding: 0.5vw 0.4vw 0.5vw !important;
+    color: #1890ff;
+    margin-top: 1vw;
+    background: #d1d1d1;
+    font-size: 1.4vw;
+    letter-spacing: 0.1vw;
+  } // 设置每个单元格样式
+  .ant-table-tbody > tr > td {
+    padding: 0.2vw 0.5vw !important;
+  } //后四栏真实table
+  .real-table {
+    .ant-table-tbody > tr > td {
+      height: 2vw !important;
+    }
+  }
+
+  th {
+    padding-top: 0.8vw !important;
+    padding-bottom: 0.8vw !important;
+    text-align: center !important;
+  }
+}
+
+.tables {
+  // width: 100%;
+  padding: 0.2vw 0;
+  margin: 0 auto 5vw; // border: 1px solid #ccc;
+  font-size: 1vw !important;
+  // border-radius: 1vw;
+  .col-style {
+    font-size: 1.1vw;
+    font-weight: bold;
+  }
+  // 保密协议
+  .agreement {
+    //隐藏头部
+    thead {
+      display: none;
+    }
+    .agreement-top {
+      padding-top: 0.8vw;
+      font-size: 1.05vw;
+    }
+    .agreement-bottom {
+      width: 100%;
+      margin: 3vw 0 0.8vw;
+      .sign-name {
+        display: inline-block;
+        width: 60%;
+      }
+      .sign-date {
+        display: inline-block;
+        width: 40%;
+      }
+    }
+  }
+}
+.print-tables {
+  width: 75%;
+}
+.bor {
+  // 表格边框
+  .ant-table-bordered .ant-table-thead > tr > th,
+  .ant-table-bordered .ant-table-tbody > tr > td {
+    border-width: 1.5px;
+    border-color: #666666;
+  }
+  .ant-table-bordered .ant-table-header > table,
+  .ant-table-bordered .ant-table-body > table,
+  .ant-table-bordered .ant-table-fixed-left table,
+  .ant-table-bordered .ant-table-fixed-right table {
+    border-left-width: 1.5px;
+    border-color: #666666;
+  }
+  .ant-table-title {
+    color: #fff;
+    background: #666666;
+  }
+}
+.witness {
+  color: #1890ff;
+  font-size: 1.15vw;
+  padding-left: 1vw;
+}

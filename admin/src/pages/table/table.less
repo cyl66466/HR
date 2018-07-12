@@ -1,0 +1,130 @@
+.ant-table-tbody > tr > td {
+  padding: 6px 0 !important;
+}
+.information {
+  // background-image: url("https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1834759360,1642557739&fm=27&gp=0.jpg");
+  // background-repeat: no-repeat;
+  // background-size: 100% 100%;
+}
+.header {
+  width: 100%;
+  padding: 1vw 0;
+  background: rgb(227, 241, 240);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  .left {
+    margin-right: 14vw;
+  }
+  .right {
+    margin-left: 14vw;
+    font-size: 1.1vw;
+    .admin {
+      margin-left: 0.6vw;
+      font-size: 1.4vw;
+    }
+    .out-login {
+      margin-left: 1.5vw;
+      font-size: 0.7vw;
+      &:hover {
+        cursor: pointer;
+        color: #1890ff;
+      }
+    }
+    .export-excel,
+    .print {
+      background: #1890ff;
+      color: #fff;
+      border-radius: 5vw;
+      margin-left: 0.8vw;
+      padding: 0.5vw 0.8vw;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.title {
+  width: 100%;
+  padding-top: 3vw;
+  margin-bottom: 1vw;
+  text-align: center;
+  color: #1890ff;
+  font-family: "幼圆";
+  font-size: 2vw;
+  letter-spacing: 0.2vw;
+}
+.operation {
+  width: 65%;
+  margin: 4vw auto 1.2vw;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .oper-left {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    .oper-select {
+      width: 25%;
+    }
+    .oper-search {
+      width: 65%;
+    }
+  }
+  .oper-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .export-excel {
+      background: #1890ff;
+      color: #fff;
+      border-radius: 5vw;
+      margin-left: 0.8vw;
+      padding: 0.5vw 0.8vw;
+      &:hover {
+        cursor: pointer;
+        background: #0675dd;
+      }
+    }
+    .hideDownDom {
+      display: none;
+    }
+  }
+}
+.all-data-table {
+  width: 65%;
+  margin: 0 auto 3vw;
+  .ant-table-bordered .ant-table-body > table {
+    border: 1px solid #ccc;
+  }
+  .ant-table-thead > tr > th {
+    font-size: 17px;
+    background: rgb(236, 247, 247);
+  }
+  // 表格边框
+  .ant-table-bordered .ant-table-thead > tr > th,
+  .ant-table-bordered .ant-table-tbody > tr > td {
+    border-width: 1px;
+    border-color: #c4c1c1;
+  }
+  .ant-table-bordered .ant-table-header > table,
+  .ant-table-bordered .ant-table-body > table,
+  .ant-table-bordered .ant-table-fixed-left table,
+  .ant-table-bordered .ant-table-fixed-right table {
+    border-left-width: 1px;
+    border-color: #c4c1c1;
+  }
+}
+
+tr {
+  text-align: center;
+}
+
+.imgs_zjz {
+  width: 60px;
+  height: 80px;
+}
